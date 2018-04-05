@@ -128,7 +128,7 @@ h3 {
 
 @media only screen and (max-width: 819px) {
   img {
-    max-width: 40%;
+    max-width: 30%;
   }
   a {
     font-size: 2em;
