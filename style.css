@@ -27,6 +27,13 @@ a:hover {
   opacity: 1.0;
 }
 
+h1{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 5em;
+}
+
 p {
   font-family: 'Libre Baskerville', serif;
   font-size: 1em;
@@ -42,10 +49,10 @@ h3 {
 
 .info {
   position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
+  top: 20%;
+  transform: translateY(-20%);
+  -webkit-transform: translateY(-20%);
+  -ms-transform: translateY(-20%);
   color: white;
   text-align: center;
   display: block;
@@ -126,4 +133,15 @@ h3 {
   a {
     font-size: 2em;
   }
+
+  h1{
+    font-size: 3em;
+  }
+
+  .info {
+
+    top: 10%;
+    transform: translateY(-10%);
+    -webkit-transform: translateY(-10%);
+    -ms-transform: translateY(-10%);
 }
