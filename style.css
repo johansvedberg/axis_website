@@ -1,0 +1,72 @@
+html {
+  background: url("background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+
+}
+
+body {
+  height: 100%;
+}
+
+img {
+  border-radius: 50%;
+  max-width: 60%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.8;
+  font-size: 3em;
+}
+
+a:hover {
+  opacity: 1.0;
+}
+
+p {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1em;
+  margin-top: 3px;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 3px;
+}
+
+.info {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  color: white;
+  text-align: center;
+  display: block;
+
+}
+
+
+.person {
+  display: inline-block;
+  margin-bottom: 20px;
+
+}
+
+
+@media only screen and (max-width: 819px) {
+    img {
+        max-width: 40%;
+    }
+
+    a{
+      font-size: 1em;
+    }
+}
